@@ -1,4 +1,4 @@
-# Algoritma Genetika — Knapsack Problem
+# Algoritma Genetika - Knapsack Problem
 
 | Informasi | Detail |
 |-----------|--------|
@@ -6,8 +6,6 @@
 | **NIM** | H1D024019 |
 | **Shift KRS** | G |
 | **Shift Baru** | F |
-| **Mata Kuliah** | Kecerdasan Buatan |
-| **Praktikum** | Pertemuan 9 — Algoritma Genetika 1 |
 
 ---
 
@@ -79,7 +77,7 @@ Program menggunakan 9 barang dengan nilai dan berat sebagai berikut:
 
 ---
 
-### 1. `inisiasipopulasi.py` — Inisialisasi Populasi Awal
+### 1. `inisiasipopulasi.py` - Inisialisasi Populasi Awal
 
 ```python
 def inisialisasi_populasi(jumlah_populasi, jumlah_gen):
@@ -108,7 +106,7 @@ Individu 2: [0, 1, 0, 1, 1, 0, 0, 1, 1]
 
 ---
 
-### 2. `evaluasifitness.py` — Evaluasi Nilai Fitness
+### 2. `evaluasifitness.py` - Evaluasi Nilai Fitness
 
 ```python
 def hitung_fitness(kromosom, barang, kapasitas_tas):
@@ -144,7 +142,7 @@ Individu 3: Fitness = 230
 
 ---
 
-### 3. `selection.py` — Proses Seleksi Orang Tua
+### 3. `selection.py` - Proses Seleksi Orang Tua
 
 Terdapat dua metode seleksi yang diimplementasikan:
 
@@ -187,7 +185,7 @@ Parent 2: individu3
 
 ---
 
-### 4. `crossover.py` — Proses Penyilangan (Crossover)
+### 4. `crossover.py` - Proses Penyilangan (Crossover)
 
 Terdapat tiga metode crossover yang diimplementasikan:
 
@@ -233,7 +231,7 @@ Anak 2: [0, 1, 0, 1, 0]
 
 ---
 
-### 5. `mutation.py` — Proses Mutasi
+### 5. `mutation.py` - Proses Mutasi
 
 Terdapat tiga metode mutasi yang diimplementasikan:
 
@@ -271,7 +269,7 @@ Anak 3 (Uniform Mutation):   [0, 1, 1, 0, 1]
 
 ---
 
-### 6. `main.py` — Program Utama
+### 6. `main.py` - Program Utama
 
 ```python
 run_ga(
